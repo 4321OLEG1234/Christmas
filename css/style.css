@@ -1,0 +1,41 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+@font-face {
+    font-family: 'f1';
+    src: url(../font/lunapark-two2.ttf);
+}
+body{
+    background: #123;
+    
+}
+#container{
+    width: 350px;
+    border: 1px solid white;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    border-radius: 7px;
+}
+#container div{
+border: 1px dotted #fff;
+}
+#container div img{
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 35px #fff;
+    cursor: pointer;
+    transition: 1s;
+}
+#container div img:hover{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+#container div{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: f1;
+}
